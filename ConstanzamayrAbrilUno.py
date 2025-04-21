@@ -22,8 +22,8 @@ while True:                                      #bucle while para llevar a cabo
     opcion= int (input("Ingrese la opción: "))   #creo la variable opcion la cual le da el valor el user por el input
 
     if opcion==1: #si eligio la opcion 1:
-        tarea = input("Escribe la nueva tarea que querés añadir: ") #aqui engresa el usuario que tarea quiere añadir
-        tareas.append(tarea) #agrega la nueva tarea a la lista tareas 
+        tareanueva = input("Escribe la nueva tarea que querés añadir: ") #aqui engresa el usuario que tarea quiere añadir
+        tareas.append(tareanueva) #agrega la nueva tarea a la lista tareas 
         print("✓ - Tarea añadida con éxito ⊱┊")
 
     elif opcion==2: 
